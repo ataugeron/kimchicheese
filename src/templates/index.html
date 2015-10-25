@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block css %}
+    {{ super() }}
+    <link rel="stylesheet" href="css/index.css">
+{% endblock %}
+
+{% block body %}
+    <nav class="container">
+        <aside>
+            <strong>Kimchi & Cheese</strong> is a collection of essays written by a Frenchman discovering Korean culture, history and language.
+        </aside>
+        <h1>Essays</h1>
+        <ul>
+            {% for essay in essays %}
+                <li>
+                    <a href="{{essay.pageName}}">
+                        <img src="images/{{essay.imageName}}" alt="{{essay.title}}">
+                        <hgroup>
+                            <h2>{{essay.title}}</h2>
+                            <h3>{{essay.subtitle}}</h3>
+                        </hgroup>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+{% endblock %}

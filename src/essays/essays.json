@@ -1,0 +1,28 @@
+{
+    "index": [
+        "first-trip-to-korea",
+        "from-joseon-to-korea",
+        "budae-jiggae"
+    ],
+
+    "essays": {
+
+        "first-trip-to-korea": {
+            "title": "First trip to Korea",
+            "subtitle": "Random observations and pictures",
+            "relatedEssays": ["from-joseon-to-korea", "budae-jiggae"]
+        },
+
+        "from-joseon-to-korea": {
+            "title": "From Joseon to Korea",
+            "subtitle": "Origins of the various names of Korea",
+            "relatedEssays": ["first-trip-to-korea", "budae-jiggae"]
+        },
+
+        "budae-jiggae": {
+            "title": "Budae Jiggae",
+            "subtitle": "Seems so wrong, tastes so right!",
+            "relatedEssays": ["first-trip-to-korea", "from-joseon-to-korea"]
+        }
+    }
+}

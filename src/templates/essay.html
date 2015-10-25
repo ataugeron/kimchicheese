@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block css %}
+    {{ super() }}
+    <link rel="stylesheet" href="css/essay.css">
+{% endblock %}
+
+{% block body %}
+    <a href="index.html">Back to index</a>
+
+    <article class="container">
+        <hgroup>
+            <h1>{{essay.title}}</h1>
+            <h2>{{essay.subtitle}}</h2>
+        </hgroup>
+        {{essay.body}}
+    </article>
+
+    <nav class="container">
+        <h1>Other Essays</h1>
+        <ul>
+            {% for relatedEssay in relatedEssays %}
+                <li>
+                    <a href="{{relatedEssay.pageName}}">
+                        <img src="images/{{relatedEssay.imageName}}" alt="{{relatedEssay.title}}">
+                        <hgroup>
+                            <h2>{{relatedEssay.title}}</h2>
+                            <h3>{{relatedEssay.subtitle}}</h3>
+                        </hgroup>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+{% endblock %}

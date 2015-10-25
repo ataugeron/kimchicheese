@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+body {
+    font-family: 'Poly', serif;
+    font-size: 18px;
+    line-height: 1.6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+body > a {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+a:link, a:visited {
+    color: #CC092F;
+}
+
+a:hover, a:active {
+    color: black;
+}
+
+a:link, a:hover, a:active, a:visited {
+    text-decoration: none;
+}
