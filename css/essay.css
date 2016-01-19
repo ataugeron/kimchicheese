@@ -64,3 +64,7 @@ nav h3 {
     font-size: 16px;
     margin: 0;
 }
+
+article img {
+    width: 100%;
+}

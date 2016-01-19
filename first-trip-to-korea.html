@@ -19,27 +19,170 @@
     <article class="container">
         <hgroup>
             <h1>First trip to Korea</h1>
-            <h2>Random observations and pictures</h2>
+            
         </hgroup>
-        <h3>Changdoekgung Palace</h3>
-<p>After countless hours watching Korean historical dramas, I finally got to walk in a typical Joseon palace (Changdeokgung 창덕궁). It was lovely, there were even Korean ladies wearing hanboks (and taking selfies with their Samsung smartphone). What marked me the most is that, even though these buildings look like remains of an old distant era, they were actually inhabited by the last Korean king / emperor until 1926, and by some royal family members after that.</p>
-<h3>Kimchi Fridge</h3>
-<p>The typical Korean mother makes her own kimchi for the family. The preparation process, called Gimjang (김장), happens once a year, before the Winter comes. Traditionally you would store all that kimchi in jars buried in the ground, but nowadays it is common for Korean families to have a dedicated refrigerator just for kimchi.</p>
-<p>Not only this refrigerator will be used exclusively for kimchi, but it is even manufactured specifically for kimchi, with specific settings for different parts of the fridge to preserve the different kinds of kimchi for each season.</p>
-<h3>Chimaek</h3>
-<p>It appears a trendy thing to eat these days in Korea is fried chicken with beer. It is so popular that is has its own name: chimaek, contraction of “chicken” and “maekju” (beer in Korean), and the trend has even spread to China thanks to some Korean drama.</p>
-<p>I was a bit skeptical at first, but I have to admit this was the best chicken I have ever eaten.</p>
-<h3>Makgeolli</h3>
-<p>According to the World Health Organization, Koreans are the heaviest drinkers outside of Europe. Although they drink various spirits such as wine, beer and whisky, the most popular drink in Korea is soju, a cheap and colorless distilled spirit traditionally made of rice but nowadays more commonly made of potatoes.</p>
-<p>But back in the days, farmers would traditionally drink a fermented beverage made of rice or wheat called makgeolli (막걸리). I read it’s been long looked down upon, because it was a farmer’s drink, but it’s making a comeback and you can now enjoy grossly overpriced makgeolli in trendy bars.</p>
-<p>I got to try makgeolli with haemul pajeon (seafood pancake) at a local joint near Cheongju. It’s pretty good, it has a sweet taste, but I’m told you get the worst hangover if you get drunk with that.</p>
-<h3>Octopus</h3>
-<p>I’m told you are not Korean until you eat live octopus. Well guess what, I’m not Korean yet. Maybe one day... Anyway, Koreans love these things (although they don’t usually eat them alive) and I got to learn the difference between nakji (octopus), ojingoe (squid) and juggumi (smaller type of octopus).</p>
-<h3>No Key</h3>
-<p>It appears that the key is a technology of the past in Korea, as almost every single door that I saw is locked with a code. Even old doors on traditional hanoks. That’s pretty convenient when you rent an Airbnb, the host can just email you the code and you don’t need to meet up for check-in.</p>
-<h3>Walk-In Shower</h3>
-<p>In Korea it is common for the shower to be on the same level as the rest of the bathroom (similar to Italian showers). In theory it’s great, you don’t have to clumsily climb in a bathtub or wrestle with shower doors, you just walk in, you feel free. But when you combine that with the tiny size of apartments in big cities, you get the smallest bathroom ever.</p>
-<p>I should add that the tap and the shower share the same water pipe and you flip a switch. You can guess what happens when you’re wearing your clothes and try to use the tap without checking if the switch is in the right position...</p>
+        <!-- TODO: Abstract HTML/CSS next time I do a photo essay. -->
+
+<style>
+    .row {
+        border: 5px solid black;
+    }
+
+    .row + .row {
+        border-top: 0;
+    }
+
+    .col-md-6:first-child {
+        border-right: 2.5px solid black;
+    }
+
+    .col-md-6:last-child {
+        border-left: 2.5px solid black;
+    }
+
+    .col-md-6, .col-md-12 {
+        padding: 0px;
+    }
+
+    .with-legend {
+        display: inline;
+        position: relative;
+    }
+
+    .with-legend:after {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 98;
+        content: attr(legend);
+        color: white;
+        font-size: 14px;
+        opacity: 0.2;
+    }
+
+    .with-legend:hover:after {
+        opacity: 1;
+    }
+</style>
+
+<div class="row">
+    <div class="col-md-12"><img src="images/first-trip-to-korea/house.jpg"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-12"><img src="images/first-trip-to-korea/art.jpg"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-12"><img src="images/first-trip-to-korea/village.jpg"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 with-legend" legend="After countless hours watching Korean historical dramas, I finally got to walk in a typical Joseon palace (Changdeokgung 창덕궁).">
+        <img src="images/first-trip-to-korea/palace1.jpg">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6"><img src="images/first-trip-to-korea/palace2.jpg"></div>
+    <div class="col-md-6"><img src="images/first-trip-to-korea/palace3.jpg"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-12"><img src="images/first-trip-to-korea/palace4.jpg"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 with-legend" legend="What marked me the most is that, even though these buildings look like remains of an old distant era, they were actually inhabited by the last Korean king / emperor until 1926, and by some royal family members after that.">
+        <img src="images/first-trip-to-korea/palace5.jpg">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12"><img src="images/first-trip-to-korea/palace6.jpg"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-6"><img src="images/first-trip-to-korea/palace7.jpg"></div>
+    <div class="col-md-6"><img src="images/first-trip-to-korea/palace8.jpg"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-12"><img src="images/first-trip-to-korea/palace9.jpg"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 with-legend" legend="The typical Korean mother makes her own kimchi for the family. The preparation process, called Gimjang (김장), happens once a year, before the Winter comes.">
+        <img src="images/first-trip-to-korea/kimchi1.jpg">
+    </div>
+    <div class="col-md-6 with-legend" legend="Traditionally you would store all that kimchi in jars buried in the ground, but nowadays it is common to have a dedicated refrigerator just for kimchi.">
+        <img src="images/first-trip-to-korea/kimchi2.jpg">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 with-legend" legend="I’m told you are not Korean until you eat live octopus. Well guess what, I’m not Korean yet. Maybe one day... ">
+        <img src="images/first-trip-to-korea/octopus1.jpg">
+    </div>
+    <div class="col-md-6 with-legend" legend="I got to learn the difference between nakji (octopus), ojingoe (squid) and juggumi (smaller type of octopus). Can you tell what's on the BBQ?">
+        <img src="images/first-trip-to-korea/octopus2.jpg">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12"><img src="images/first-trip-to-korea/daouna.jpg"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-6"><img src="images/first-trip-to-korea/tea1.jpg"></div>
+    <div class="col-md-6"><img src="images/first-trip-to-korea/tea2.jpg"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 with-legend" legend="Fried chicken with beer is a trendy dish in Korea these days. It is so popular that is has its own name: chimaek, contraction of “chicken” and “maekju” (beer in Korean).">
+        <img src="images/first-trip-to-korea/chimaek1.jpg">
+    </div>
+    <div class="col-md-6 with-legend" legend="I was a bit skeptical at first, but I have to admit this was the best chicken I have ever eaten.">
+        <img src="images/first-trip-to-korea/chimaek2.jpg">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6"><img src="images/first-trip-to-korea/street.jpg"></div>
+    <div class="col-md-6"><img src="images/first-trip-to-korea/bibimbap.jpg"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 with-legend" legend="It appears that the key is a technology of the past in Korea, as almost every single door that I saw is locked with a code.">
+        <img src="images/first-trip-to-korea/key1.jpg">
+    </div>
+    <div class="col-md-6 with-legend" legend="Even old doors on traditional hanoks...">
+        <img src="images/first-trip-to-korea/key2.jpg">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12"><img src="images/first-trip-to-korea/tea3.jpg"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 with-legend" legend="Back in the days, Korean farmers would traditionally drink a fermented beverage made of rice or wheat called makgeolli (막걸리)">
+        <img src="images/first-trip-to-korea/makgoelli1.jpg">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 with-legend" legend="I got to try makgeolli with haemul pajeon (seafood pancake) at a local joint near Cheongju. It’s pretty good, it has a sweet taste, but I’m told you get the worst hangover if you get drunk with that.">
+        <img src="images/first-trip-to-korea/makgoelli2.jpg">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12"><img src="images/first-trip-to-korea/garden.jpg"></div>
+</div>
     </article>
 
     <nav class="container">
