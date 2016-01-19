@@ -10,6 +10,7 @@
         "first-trip-to-korea": {
             "title": "First trip to Korea",
             "subtitle": "Random observations and pictures",
+            "displaySubtitle": false,
             "relatedEssays": ["from-joseon-to-korea", "budae-jiggae"]
         },
 

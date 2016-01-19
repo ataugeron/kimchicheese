@@ -11,7 +11,7 @@
     <article class="container">
         <hgroup>
             <h1>{{essay.title}}</h1>
-            <h2>{{essay.subtitle}}</h2>
+            {% if essay.displaySubtitle %}<h2>{{essay.subtitle}}</h2>{% endif %}
         </hgroup>
         {{essay.body}}
     </article>
