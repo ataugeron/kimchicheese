@@ -2,7 +2,7 @@ Based on my observations, the Westerner’s initiation to Korean cuisine usually
 
 My initiation was four years ago, and I’ve since had plenty of time to venture further down the menu. The dishes that most surprised me so far are the jjigae (찌개), the Korean stews. They’re just so damn tasty! If you’ve never tried it, next time you go to a Korean restaurant ask for a spicy kimchi jjigae, you won’t regret it. Or maybe you will...
 
-I tried many different kinds of jjigae, all surprising in their own way, but one in particular captured my interest because of its peculiar ingredients and fascinating history: the Budae Jjigae (부대찌개), also known as Army Stew. In this post, we’ll go back in time to discover the tragic origins of this tasty soup and understand its historical significance.
+I tried many different kinds of jjigae, all surprising in their own way, but one in particular captured my interest because of its peculiar ingredients and fascinating history: the budae jjigae (부대찌개), also known as Army Stew. In this post, we’ll go back in time to discover the tragic origins of this tasty soup and understand its historical significance.
 
 Before we climb in the time machine, let’s take a look at what’s in our bowl. At first glance a budae jjigae looks quite similar to a kimchi jjigae: a thick red spicy-looking soup, with bits of kimchi, veggies and meat floating around. What makes the budae jjigae unique is the type of meat it contains (ham, sausages and spam) and the addition of ramen noodles. These are not traditional Korean ingredients at all. And yet they fit surprisingly well in this recipe. As [Anthony Bourdain puts it](http://www.cnn.com/2015/04/24/travel/bourdain-parts-unknown-korea-recipe): it seems so wrong, but it tastes so right!
 
@@ -51,7 +51,7 @@ Nowadays, budae jjigae is one of the most common dishes to eat in South Korea. Y
         <div class="col-md-6 with-legend" legend="Nolbu Budae Jjigae, a chain dedicated to budae jjigae">
             <img src="images/budae-jjigae/nolbu.jpg">
         </div>
-        <div class="col-md-6 with-legend" legend="Pre-made buddae jjigae on display in a supermarket in Cheongju">
+        <div class="col-md-6 with-legend" legend="Pre-made buddae jjigae on display in a supermarket">
             <img src="images/budae-jjigae/supermarket.jpg">
         </div>
     </div>
