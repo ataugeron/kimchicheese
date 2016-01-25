@@ -97,14 +97,12 @@ def buildSite():
 
 def publishSite():
     commands = [
-        'git stash',
         'git checkout gh-pages',
         'cp -r site/* .',
         'git add --all .',
         'git commit -m "Generate website (auto)"',
         'git push origin gh-pages',
         'git checkout master',
-        'git stash pop',
     ]
     command = '; '.join(commands)
     subprocess.Popen(command, shell=True, cwd=ROOT_FOLDER).wait()
