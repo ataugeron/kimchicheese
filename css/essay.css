@@ -68,3 +68,42 @@ nav h3 {
 article img {
     width: 100%;
 }
+
+.gallery .row {
+    border: 5px solid black;
+}
+
+.gallery .row + .row {
+    border-top: 0;
+}
+
+.gallery .col-md-6:first-child {
+    border-right: 2.5px solid black;
+}
+
+.gallery .col-md-6:last-child {
+    border-left: 2.5px solid black;
+}
+
+.gallery .col-md-6, .col-md-12 {
+    padding: 0px;
+}
+
+.gallery .with-legend {
+    display: inline;
+    position: relative;
+    float: left;
+}
+
+.gallery .with-legend:after {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 98;
+    content: attr(legend);
+    color: white;
+    font-size: 14px;
+}
