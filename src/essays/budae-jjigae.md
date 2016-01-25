@@ -20,6 +20,8 @@ From 1910 to 1945, Korea was under Japanese occupation. During this time, Japan 
 
 Basically, the country was swept over by various armies not only once, but three times in three years. And that was after 35 years of foreign occupation. Needless to say that by 1953, Korea was completely devastated. It was actually one of the poorest countries in the world.
 
+A large part of the population had lost their home during the war, food was scarce, so people naturally gathered around the few places that did have plenty of resources: the US army bases. The poorest would do whatever they could to survive, including prostitution and scavenging military trash for food. They would find bits of hot dogs or spam and mix them with whatever they had to make an infamous soup called kkulkkulyi jug (꿀꿀이 죽, pig’s soup). There were often bits of glass, gum or cigarette buts mixed in, but it was still better than starving.
+
 <div class="gallery">
     <div class="row">
         <div class="col-md-12 with-legend" legend="Kids waiting to get a portion of kkulkkulyi jug">
