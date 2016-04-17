@@ -2,6 +2,7 @@
     "index": [
         "first-trip-to-korea",
         "from-joseon-to-korea",
+        "king-sejong-the-great",
         "budae-jjigae"
     ],
 
@@ -11,19 +12,25 @@
             "title": "First trip to Korea",
             "subtitle": "Random observations and pictures",
             "displaySubtitle": false,
-            "relatedEssays": ["from-joseon-to-korea", "budae-jjigae"]
+            "relatedEssays": ["from-joseon-to-korea", "king-sejong-the-great", "budae-jjigae"]
         },
 
         "from-joseon-to-korea": {
             "title": "From Joseon to Korea",
             "subtitle": "Origins of the various names of Korea",
-            "relatedEssays": ["first-trip-to-korea", "budae-jjigae"]
+            "relatedEssays": ["first-trip-to-korea", "king-sejong-the-great", "budae-jjigae"]
+        },
+
+        "king-sejong-the-great": {
+            "title": "King Sejong the Great",
+            "subtitle": "The most enlightened ruler in Korean history",
+            "relatedEssays": ["from-joseon-to-korea", "first-trip-to-korea", "budae-jjigae"]
         },
 
         "budae-jjigae": {
             "title": "Budae Jjigae",
             "subtitle": "Seems so wrong, tastes so right!",
-            "relatedEssays": ["first-trip-to-korea", "from-joseon-to-korea"]
+            "relatedEssays": ["first-trip-to-korea", "from-joseon-to-korea", "king-sejong-the-great"]
         }
     }
 }
