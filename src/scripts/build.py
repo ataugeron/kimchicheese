@@ -33,6 +33,7 @@ class Essay(object):
         self.title = metadata['title']
         self.subtitle = metadata['subtitle']
         self.description = metadata.get('description')
+        self.lastModificationDate = metadata['lastModificationDate']
         self.displaySubtitle = metadata.get('displaySubtitle', True)
         self.relatedEssays = metadata['relatedEssays']
         self.pageName = '{key}.html'.format(key=key)
@@ -77,6 +78,11 @@ def buildIndex(index, essays):
     context = {'essays': [essays[key] for key in index]}
     renderFile('index.html', template, context)
 
+def buildSitemap(essays):
+    template = templatesEnvironment.get_template('sitemap.xml')
+    context = {'essays': essays}
+    renderFile('sitemap.xml', template, context)
+
 def buildEssays(essays):
     for key, essay in essays.iteritems():
         relatedEssays = [essays[key] for key in essay.relatedEssays]
@@ -93,6 +99,7 @@ def buildSite():
     createSiteFolder()
     index, essays = loadEssays()
     buildIndex(index, essays)
+    buildSitemap(essays)
     buildEssays(essays)
     copyAssets()
 

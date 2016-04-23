@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for key, essay in essays.iteritems() %}
+        <url>
+            <loc>http://kimchicheese.com/{{key}}.html</loc>
+            <lastmod>{{essay.lastModificationDate}}</lastmod>
+            <changefreq>monthly</changefreq>
+        </url>
+    {% endfor %}
+</urlset>

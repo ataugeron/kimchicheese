@@ -11,6 +11,7 @@
         "first-trip-to-korea": {
             "title": "First trip to Korea",
             "subtitle": "Random observations and pictures",
+            "lastModificationDate": "2016-04-23",
             "displaySubtitle": false,
             "relatedEssays": ["from-joseon-to-korea", "king-sejong-the-great", "budae-jjigae"]
         },
@@ -18,6 +19,7 @@
         "from-joseon-to-korea": {
             "title": "From Joseon to Korea",
             "subtitle": "Origins of the various names of Korea",
+            "lastModificationDate": "2016-04-23",
             "relatedEssays": ["first-trip-to-korea", "king-sejong-the-great", "budae-jjigae"]
         },
 
@@ -25,12 +27,14 @@
             "title": "King Sejong the Great",
             "subtitle": "The most enlightened ruler in Korean history",
             "description": "King Sejong the Great is remembered today as the most enlightened ruler in Korean history. Who was this great king? What did he do to deserve such honors?",
+            "lastModificationDate": "2016-04-23",
             "relatedEssays": ["from-joseon-to-korea", "first-trip-to-korea", "budae-jjigae"]
         },
 
         "budae-jjigae": {
             "title": "Budae Jjigae",
             "subtitle": "Seems so wrong, tastes so right!",
+            "lastModificationDate": "2016-04-23",
             "relatedEssays": ["first-trip-to-korea", "from-joseon-to-korea", "king-sejong-the-great"]
         }
     }
