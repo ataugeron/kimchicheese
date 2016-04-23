@@ -32,6 +32,7 @@ class Essay(object):
         self.key = key
         self.title = metadata['title']
         self.subtitle = metadata['subtitle']
+        self.description = metadata.get('description')
         self.displaySubtitle = metadata.get('displaySubtitle', True)
         self.relatedEssays = metadata['relatedEssays']
         self.pageName = '{key}.html'.format(key=key)

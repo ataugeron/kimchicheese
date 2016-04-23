@@ -1,9 +1,17 @@
 {% extends "base.html" %}
 
+{% block title %}{{essay.title}}{% endblock %}
+
 {% block css %}
     {{ super() }}
     <link rel="stylesheet" href="css/essay.css">
 {% endblock %}
+
+{% if essay.description %}
+    {% block meta %}
+        <meta name="description" content="{{essay.description}}">
+    {% endblock %}
+{% endif %}
 
 {% block body %}
     <a href="index.html">Back to index</a>
